@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.Main-Game{
+  text-align: center;
+}
+.Main-Game > h1,h4{
+  color: #282c34;
+  font-family: 'Courier New', Courier, monospace;
+}
+.game-area{
+  position: relative;
+  margin: 50px auto;
+  width: 500px;
+  height: 500px;
+  border: 3px solid rgb(231, 225, 225);
+  background-color: rgb(240, 240, 6);
+}
+.snake-dot{
+  position: absolute;
+  width:  23px;
+  height: 23px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  z-index: 1;
+}
+.snake-food{
+  position: absolute;
+  width:  23px;
+  height: 23px;
+  background-color: rgb(245, 74, 7);
+  border: 1px solid rgb(245, 74, 7);
+  border-radius: 50%;
+  z-index: 2;
+}
